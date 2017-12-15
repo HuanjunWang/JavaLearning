@@ -5,7 +5,7 @@ import java.util.Random;
  */
 
 
-class AVLTreeNode<K extends Comparable, V> {
+class AVLTreeNode<K extends Comparable<K>, V> {
     public K key;
     public V value;
     public AVLTreeNode<K, V> left;
@@ -34,7 +34,7 @@ class AVLTreeNode<K extends Comparable, V> {
 }
 
 
-public class AVLTree<K extends Comparable, V> {
+public class AVLTree<K extends Comparable<K>, V> {
     private AVLTreeNode<K, V> root;
 
     public boolean isEmpty() {
