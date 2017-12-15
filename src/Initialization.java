@@ -1,5 +1,5 @@
 /**
- * Created by ehunwag on 12/14/2017.
+ * Created by Echo Wang on 12/14/2017.
  */
 
 class InitExample1{
